@@ -1,4 +1,4 @@
-GET http://localhost:3000/users
+GET http://localhost:3000/users?role=ADMIN
 ###
 
 
@@ -16,9 +16,7 @@ PATCH  http://localhost:3000/users/1
 Content-Type: application/json
 
 {
-    "name": "sampl333e",
-    "email": "sample@gmail.com",
-    "role":"ADMIN"
+    "name":""
 }
 
 ###
